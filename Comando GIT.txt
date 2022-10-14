@@ -1,0 +1,50 @@
+COMANDOS INICIALES
+
+git init
+git branch -M main
+
+git clone https://github.com/Biggyhands/ciclo-4-proyecto.git
+git status
+cd ciclo-4-proyecto/
+git add .
+git commit -m "Primer commit"	-> En el repo local
+git push origin main			-> Enviamos cambios a github
+git pull origin main			-> Traemos cambios de github
+
+
+
+*Opcionales cuando el repo no ha sido creado
+
+git remote add origin https://github.com/Biggyhands/ciclo-4-proyecto.git
+git push -u origin main	-> Usamos -u si la rama main no esta creada
+git pull origin main
+
+
+***********************************************************************
+
+		COMANDOS GITHUB - Proyecto
+
+git push - u origin desarrollo		-> Creo rama y envio cambios
+git push origin desarrollo		-> Enviar solo cambios
+
+
+
+
+***********************************************************************
+
+
+		COMANDOS GENERALES
+
+
+git status
+git add .
+git commit -m "Primer commit"	-> Guardar cambios al repo local
+
+git pull origin main			-> Traemos cambios de github
+git push origin main			-> Enviamos cambios a github
+
+git branch			-> ver todas las ramas
+git branch desarrollo		-> Crear rama desarrollo
+git checkout desarrollo		-> Acceder a la rama
+
+git push - u origin desarrollo		-> Creo rama y envio cambios al github
