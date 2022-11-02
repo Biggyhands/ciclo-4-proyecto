@@ -1,0 +1,269 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size:62.5%;
+    background-color: #E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+::placeholder {color:#FFFFFF;}
+
+/*--Header-style--*/
+
+.header-container{
+    position: absolute;
+    top: 0;
+    width: 1440px;
+    height: 60px;
+    background-color:#FFFFFF;
+    display:flex;
+
+}
+.header-text-container{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+.header-text-bold-container{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;   
+}
+.header-text-plane-container{
+    display: flex;
+    align-items: center;
+}
+.header-text-bold{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.header-text-plane{
+    font-size: 1.8rem; 
+}
+
+/*--Header-style--*/
+
+/*--Main-style--*/
+
+.main-container{
+    width: 1440px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+
+.main-tickets-reported-container{
+    margin-left: 40px;
+    margin-top:50px;
+}
+
+.main-ticket-reporter-container{
+    margin-right: 40px;
+    margin-top:50px;
+}
+
+
+
+.tickets-reported-title-card{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+.tickets-reported-card{
+    background-color:#FFFFFF;
+    border-radius: 5%;
+    width:350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tickets-reporter-title-card{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center; 
+}
+.form-ticket-reporter{
+    width: 85%;
+    height: 90%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.form-ticket-reporter-card{
+    background-color:#FFFFFF;
+    border-radius: 5%;
+    width:350px;
+    height: 350px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.form-input-firstname, .form-input-lastname{
+    width: 80%;
+    height: 32px;
+    margin-bottom: 10px;
+    
+}
+
+.form-input{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color:#FFFFFF;
+}
+
+.input-form-select{
+    border-radius: 20px;
+    width:240px;
+    height: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.option-style{
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+.form-input-textspace{
+ 
+}
+
+.form-input-rec{
+    background-color: black;
+    text-align: center;
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+}
+.form-input-check{
+    width: 80%;
+    font-weight: bold;
+}
+
+
+.submit-button{
+background-color: #85DCC7;
+border:none;
+border-radius: 20px;
+font-weight: bold;
+width:  180px;
+height: 30px;
+}
+.submit-button:hover{
+    cursor: pointer;
+}
+
+/*--Main-style--*/
+/*--Footer-Style--*/
+
+.footer-container{
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    width: 1440px;
+    height: 200px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+.info-ul-container{
+    width: 80%;
+    height: 70px;
+    border-bottom: solid gray 1px;
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+    font-weight: bold;
+}
+    
+.info-ul-container p:hover{
+    cursor: pointer;
+}
+
+.footer-credits{
+    margin-top:50px;
+}
+
+
+/*--Footer-Style--*/
+
+
+/*--Main-Admin-Style--*/
+.main-admin-container{
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    margin-top:100px;
+    
+}
+.ticket-to-do-card-container{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: space-between;
+}
+.ticket-to-do-card{
+    background-color:#FFFFFF;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+.ticket-to-do-card-text{
+    width: 100%;
+    height: 90%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.ticket-to-do-card-button{
+    background-color:#85DCC7;
+    font-weight: bold;
+    font-size: 1.8rem;
+    border:none;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 70px;
+}
+.ticket-to-do-card-button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*--Main-Admin-Style--*/
