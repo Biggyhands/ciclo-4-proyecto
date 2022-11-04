@@ -259,11 +259,58 @@ height: 30px;
 .ticket-to-do-card-button:hover{
     cursor: pointer;
 }
-
-
-
-
-
-
-
 /*--Main-Admin-Style--*/
+
+/*--Main-Admin-Login-Style--*/
+
+
+
+
+/*--Main-Admin-Login-Style--*/
+.main-admin-login-container{
+    width: 100vw;
+    height: 100vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+
+.log-in-container{
+    width: 100vw;
+    height:60vh;
+    display: flex; 
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+}
+
+.login-input::placeholder {color:gray;}
+
+.login-input{
+    margin-bottom: 7px;
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border:solid 1px #000000;
+
+}
+
+.login-input-button{
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+
+.log-in-title{
+    margin-bottom: 35px;
+    font-size: 2rem;
+    font-weight: bold;
+}
