@@ -18,7 +18,7 @@
     http://localhost:9000/api/tickets/{id}
 
     - Actualizar ticket por ID 
-    http://localhost:9000/api/tickets/update/6367a153499fb6ee47c303a4
+    http://localhost:9000/api/tickets/update/{id}
 
     - Eliminar ticket por ID 
-    http://localhost:9000/api/tickets/delete/6367a738f4d15c7ba1a6c188
+    http://localhost:9000/api/tickets/delete/{id}
