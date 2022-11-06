@@ -2,6 +2,10 @@
 
 ## API
 
+Esta API funciona con persistencia de datos en la nube
+Con Atlas Database, servicio de MongoDB
+Pero es necesario que la API REST este encendida
+
 ## Iniciar API
 
     npm run start
