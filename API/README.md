@@ -2,9 +2,9 @@
 
 ## API
 
-Esta API funciona con persistencia de datos en la nube
-Con Atlas Database, servicio de MongoDB
-Pero es necesario que la API REST este encendida
+- Esta API funciona con persistencia de datos en la nube
+- Se uso Atlas Database, servicio de MongoDB
+- Es necesario que la API REST este encendida
 
 ## Iniciar API
 
@@ -12,7 +12,7 @@ Pero es necesario que la API REST este encendida
 
 ## Peticiones CRUD
 
-Estas peticiones podran usarse por medio de Postman o el archivo requests.http que se encuentra en la raiz del proyecto
+Estas peticiones podrán usarse por medio de Postman o el archivo requests.http que se encuentra en la raiz del proyecto (Dando clic a "send request")
 
     - Crear ticket
     http://localhost:9000/api/tickets/create
