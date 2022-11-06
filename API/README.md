@@ -12,6 +12,8 @@ Pero es necesario que la API REST este encendida
 
 ## Peticiones CRUD
 
+Estas peticiones podran usarse por medio de Postman o el archivo requests.http que se encuentra en la raiz del proyecto
+
     - Crear ticket
     http://localhost:9000/api/tickets/create
 
@@ -26,3 +28,4 @@ Pero es necesario que la API REST este encendida
 
     - Eliminar ticket por ID 
     http://localhost:9000/api/tickets/delete/{id}
+
