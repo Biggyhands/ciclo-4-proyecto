@@ -4,16 +4,21 @@
 
 ## Iniciar API
 
--npm run start
+    npm run start
 
 ## Peticiones CRUD
 
+    - Crear ticket
+    http://localhost:9000/api/tickets/create
 
-http://localhost:9000/api/tickets/create
+    - Obtener listado de tickets
+    http://localhost:9000/api/tickets 
 
-http://localhost:9000/api/tickets 
-http://localhost:9000/api/tickets/6367a153499fb6ee47c303a4
+    - Obtener listado de tickets por ID 
+    http://localhost:9000/api/tickets/{id}
 
-http://localhost:9000/api/tickets/update/6367a153499fb6ee47c303a4
+    - Actualizar ticket por ID 
+    http://localhost:9000/api/tickets/update/6367a153499fb6ee47c303a4
 
-http://localhost:9000/api/tickets/delete/6367a738f4d15c7ba1a6c188
+    - Eliminar ticket por ID 
+    http://localhost:9000/api/tickets/delete/6367a738f4d15c7ba1a6c188
