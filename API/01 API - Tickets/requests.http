@@ -3,10 +3,10 @@ POST http://localhost:9000/api/tickets/create HTTP/1.1
 Content-Type: application/json
 
 {
-    "nombre": "test",
-    "apellido": "test",
-    "tipoProblema": "Network",
-    "descripcion": "Conectar equipo a VPN"
+    "nombre": "Daniela",
+    "apellido": "Poveda",
+    "tipoProblema": "Hardware",
+    "descripcion": "Equipo deteriorado"
 }
 
 ### Obtener listado de tickets
