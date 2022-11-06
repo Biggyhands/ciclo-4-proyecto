@@ -12,7 +12,7 @@
 
 ## Peticiones CRUD
 
--Estas peticiones podrán usarse por medio de Postman o el archivo requests.http que se encuentra en la raiz del proyecto (Dando clic a "send request")
+- Estas peticiones podrán usarse por medio de Postman o el archivo requests.http que se encuentra en la raiz del proyecto (Dando clic a "send request")
 
     - Crear ticket
     http://localhost:9000/api/tickets/create
