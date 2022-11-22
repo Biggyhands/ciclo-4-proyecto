@@ -1,12 +1,12 @@
 # ciclo-4-proyecto!
 
-## API
+## BACKEND
 
 - Esta API funciona con persistencia de datos en la nube
 - Se uso Atlas Database, servicio de MongoDB
 - Es necesario que la API REST este encendida
 
-## Iniciar API
+## Iniciar BACKEND
 
     npm run start
 

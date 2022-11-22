@@ -8,7 +8,7 @@ const port = process.env.PORT || 9000 || 6666
 
 //routes
 app.get("/", (req, res)=>{
-    res.send('Hola')
+    res.send("Raiz del proyecto\nBusque alguna de las siguientes rutas:\n\n- Crear ticket\nhttp://localhost:9000/api/tickets/create\n\n- Obtener listado de tickets\nhttp://localhost:9000/api/tickets\n\n- Obtener listado de tickets por ID\nhttp://localhost:9000/api/tickets/{id}\n\n- Actualizar ticket por ID\nhttp://localhost:9000/api/tickets/update/{id}\n\n- Eliminar ticket por ID\nhttp://localhost:9000/api/tickets/delete/{id}")
 })
 
 //middlewares
