@@ -4,7 +4,7 @@ const ticketsSchema = require('../models/ticketsModel')
 const router = express.Router()
 
 //Create tickets
-router.post("/tickets/create", (req, res)=>{
+router.post("/create", (req, res)=>{
     const ticket = ticketsSchema(req.body)
     ticket
     .save()
@@ -13,7 +13,7 @@ router.post("/tickets/create", (req, res)=>{
 })
 
 //Obtener tickets
-router.get("/tickets", (req, res)=>{
+router.get("/", (req, res)=>{
     ticketsSchema
     .find()
     .then((data)=>res.json(data), console.log('Listado de tickets'))
@@ -21,7 +21,7 @@ router.get("/tickets", (req, res)=>{
 })
 
 //Obtener tickt por ID
-router.get("/tickets/:id", (req, res)=>{
+router.get("/:id", (req, res)=>{
     const { id } = req.params
     ticketsSchema
     .findById(id)
@@ -30,7 +30,7 @@ router.get("/tickets/:id", (req, res)=>{
 })
 
 //Actualizar ticket
-router.put("/tickets/update/:id", (req, res)=>{
+router.put("/update/:id", (req, res)=>{
     const { id } = req.params
     const {nombre, apellido, tipoProblema, descripcion} = req.body
     ticketsSchema
@@ -40,7 +40,7 @@ router.put("/tickets/update/:id", (req, res)=>{
 })
 
 //Eliminar usuario
-router.delete("/tickets/delete/:id", (req, res)=>{
+router.delete("/delete/:id", (req, res)=>{
     const { id } = req.params
     ticketsSchema
     .deleteOne({_id: id})
