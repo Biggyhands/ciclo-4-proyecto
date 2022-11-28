@@ -1,0 +1,18 @@
+.copyright-container{
+    max-height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFF;
+    background-color: #439280;
+    box-sizing: border-box;
+}
+
+.copyright{
+    margin: 0px 6px 0px 6px;
+    padding: 10px 16px 10px 16px;
+    display: block;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: normal;
+}

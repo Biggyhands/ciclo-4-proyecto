@@ -1,0 +1,80 @@
+
+.container-signin{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+
+.body-signin{
+    width: 450px;
+    height: 407px;
+    background-color: #439280;
+    opacity: 0.93;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: 17px;
+}
+
+.saludo{
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+}
+.saludo p{
+    margin: 8px 0 25px 0px;
+    font-weight: bold;
+}
+
+.form label{
+    color: #FFF;
+    font-size: 18px;    
+}
+
+.form input{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    padding: 6px;
+    background-color: transparent;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+    color-scheme: #000;
+}
+.form input::placeholder{
+    color: #bbb;
+}
+
+.form input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.btn-login{
+    width: 100%;
+    margin: 8px 0px;
+    padding: 10px 16px 10px 16px;
+    display: inline;
+    color: #439280;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #FFF;
+    border-radius: 4rem;
+    background-color: #FFF;
+}
+
+.login-footer{
+    text-align: center;
+    margin: 6px;
+}
+.register{
+    display: block;
+    color: #FFF;
+    width: 100%;
+    margin: 8px 0px;
+    font-size: 18px;
+}

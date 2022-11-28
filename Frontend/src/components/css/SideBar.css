@@ -1,0 +1,23 @@
+.sideBar{
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;    
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    background-color: #439280;
+    color: #FFF;
+}
+
+.img-container{
+    width: 150px;
+    height: 150px;
+    margin: 22px auto;    
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+}

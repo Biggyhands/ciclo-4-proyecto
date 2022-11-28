@@ -1,0 +1,62 @@
+.layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    background-color: #439280;
+    box-sizing: border-box;
+}
+.empresa{
+    margin: 0 4px 0 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empresa-name{
+    margin: 0px 8px 0px 0px;
+    display: inline;
+    font-size: 32px;
+}
+
+.empresa-portal{
+    display: inline;
+    font-size: 18px;
+}
+
+.login{
+    margin: 0 150px 0 4px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-button-01{
+    margin: 0px 6px 0px 6px;
+    padding: 10px 16px 10px 16px;
+    display: inline;
+    color: #439280;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #FFF;
+    border-radius: 4rem;
+    background-color: #FFF;
+}
+.login-button-02{
+    margin: 0px 6px 0px 6px;
+    padding: 10px 16px 10px 16px;
+    display: inline;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #FFF;
+    border-radius: 4rem;
+    background-color: #439280;
+}
