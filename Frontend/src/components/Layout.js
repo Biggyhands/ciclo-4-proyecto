@@ -11,6 +11,7 @@ import CopyRight from './CopyRight';
 import LoginPage from '../pages/LoginPage';
 import RegisterPage from '../pages/RegisterPage';
 import ReportBox from './ReportBox';
+import ReportPage from '../pages/ReportPage';
 
 function Layout(){
     return (
@@ -22,7 +23,7 @@ function Layout(){
                         <Route path="/home" element={ <SideBar/> }/>
                         <Route path="/login" element={ <LoginPage/> } />
                         <Route path="/register" element={ <RegisterPage/> } />
-                        <Route path="/report" element={ <ReportBox/> } />
+                        <Route path="/report" element={ <ReportPage/> } />
                     </Routes>
                 </Content>
                 <CopyRight></CopyRight>
