@@ -1,14 +1,13 @@
 
-.container-signin{
+.container-signup{
     flex-basis: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #E5E5E5;
-    box-sizing: content-box;
+    background-color: #E5E5E5; 
 }
 
-.body-signin{
+.body-signup{
     width: 350px;
     background-color: #439280;
     opacity: 0.93;
@@ -69,6 +68,19 @@ input:-webkit-autofill:focus {
     border: 1px solid #FFF;
     border-radius: 4rem;
     background-color: #FFF;
+}
+
+.btn-signup{
+    width: 100%;
+    margin: 8px 0px;
+    padding: 10px 16px 10px 16px;
+    display: inline;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #FFF;
+    border-radius: 4rem;
+    background-color: #439280;
 }
 
 .login-footer{

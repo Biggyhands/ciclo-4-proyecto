@@ -9,21 +9,21 @@ import Form from "react-bootstrap/Form";
 
 function LoginPage() {
     return (
-        <div class="container-signin">
-            <div class="body-signin">
-                <div class="saludo">
-                    <p>Bienvenido</p>
+        <div className="container-signin">
+            <div className="body-signin">
+                <div className="saludo">
+                    <p>BIENVENIDO</p>
                 </div>
-                <form class="form">
-                    <label for="input-email">Correo</label>
+                <form className="form">
+                    <label htmlFor="input-email">Correo</label>
                     <input id="input-email" type="email" name="email" placeholder="Correo" required/>
-                    <label for="input-password">Contraseña</label>
+                    <label htmlFor="input-password">Contraseña</label>
                     <input id="input-password" type="password" name="contraseña" placeholder="Contraseña" required/>
-                    <button class="btn-login">Iniciar sesión</button>
+                    <button className="btn-login">Iniciar sesión</button>
                 </form>
-                    <div class="login-footer">
-                        <a href="#" class="register">¿Olvidó su nombre de usuario o contraseña?</a>
-                        <a href="#" class="register">¿Desea registrarse?</a>
+                    <div className="login-footer">
+                        <button className="btn-signup">¿Desea registrarse?</button>
+                        <a href="#" className="register">¿Olvidó su nombre de usuario o contraseña?</a>
                     </div>       
             </div>
         </div>
