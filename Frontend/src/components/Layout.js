@@ -10,6 +10,7 @@ import CopyRight from './CopyRight';
 
 import LoginPage from '../pages/LoginPage';
 import RegisterPage from '../pages/RegisterPage';
+import ReportBox from './ReportBox';
 
 function Layout(){
     return (
@@ -21,6 +22,7 @@ function Layout(){
                         <Route path="/home" element={ <SideBar/> }/>
                         <Route path="/login" element={ <LoginPage/> } />
                         <Route path="/register" element={ <RegisterPage/> } />
+                        <Route path="/report" element={ <ReportBox/> } />
                     </Routes>
                 </Content>
                 <CopyRight></CopyRight>

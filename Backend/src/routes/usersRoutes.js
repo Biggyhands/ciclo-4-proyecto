@@ -21,6 +21,28 @@ userRouter.get("/:id", expressAsyncHandler(async (req, res) => {
     
 }));
 
+userRouter.post('/post', expressAsyncHandler(async(req, res) =>{
+    const newUser = new User({
+        name: req.body.name,
+        email: req.body.email,
+        nickname: req.body.nickname,
+        position: req.body.position,
+        image: req.body.image,
+        password: bcrypt.hashSync(req.body.password)
+    })
+    const user = await newUser.save()
+    res.send({
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        isAdmin: user.isAdmin,
+        nickname: user.nickname,
+        position: user.position,
+        image: user.image,
+        token: generateToken(user)
+    })
+}))
+
 userRouter.post('/signup', expressAsyncHandler(async(req, res) =>{
     const newUser = new User({
         name: req.body.name,

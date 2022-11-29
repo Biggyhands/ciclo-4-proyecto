@@ -17,8 +17,8 @@ function RegisterPage() {
                 <form className="form">
                     <label htmlFor="input-nombre">Nombre</label>
                     <input id="input-nombre" type="text" name="nombre" placeholder="Nombre" required/>
-                    <label htmlFor="input-apellido">Apellido</label>
-                    <input id="input-apellido" type="text" name="apellido" placeholder="Apellido" required/>
+                    <label htmlFor="input-apodo">Apodo</label>
+                    <input id="input-apodo" type="text" name="apodo" placeholder="apodo" required/>
                     <label htmlFor="input-email">Correo</label>
                     <input id="input-email" type="email" name="email" placeholder="Correo" required/>
                     <label htmlFor="input-password">Contraseña</label>

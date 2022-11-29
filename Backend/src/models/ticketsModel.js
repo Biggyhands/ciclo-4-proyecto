@@ -1,19 +1,31 @@
 const mongoose = require('mongoose')
 
 const ticketsSchema = mongoose.Schema({
-    nombre:{
+    name:{
         type: String,
         requiered: true,
     },
-    apellido:{
+    email:{
         type: String,
         requiered: true
     },
-    tipoProblema:{
+    issue:{
         type: String,
         requiered: true
     },
-    descripcion:{
+    description:{
+        type: String,
+        requiered: true
+    },
+    code:{
+        type: String,
+        requiered: true
+    },
+    support:{
+        type: String,
+        requiered: true
+    },
+    answer:{
         type: String,
         requiered: true
     }

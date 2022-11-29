@@ -1,0 +1,62 @@
+.ReportBox{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5; 
+}
+
+.body-ReportBox{
+    width: 350px;
+    background-color: #439280;
+    opacity: 0.93;
+    border: 2px solid #FFF;
+    border-radius: 24px;
+    padding: 17px;
+}
+
+.tittle-ReportBox{
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+    
+}
+.tittle-ReportBox p{
+    margin: 0px 0 25px 0px;
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+}
+
+.select-ReportBox{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    padding: 6px;
+    padding-right: 0px;
+    background-color: #72b1a2;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    outline: none;
+    color: #FFF;
+    color-scheme: #000;
+}
+
+#input-descripcion{
+    width: 100%;
+    resize: none;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    padding: 6px;
+    padding-right: 0px;
+    background-color: #72b1a2;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    outline: none;
+    color: #FFF;
+    color-scheme: #000;
+}
+#input-descripcion::placeholder{
+    color: rgb(207, 207, 207);
+}
