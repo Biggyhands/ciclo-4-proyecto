@@ -4,7 +4,7 @@ import './css/HeadBar.css';
 
 function HeadBar(){
     return (
-        <div className="container">
+        <div className="container-HeadBar">
             <div className="empresa">
                 <div className="empresa-name">NOMBRE EMPRESA</div>
                 <div className="empresa-portal">Portal de Asistencia TI</div>

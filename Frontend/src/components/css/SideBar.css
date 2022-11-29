@@ -1,9 +1,9 @@
 .sideBar{
-    min-width: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;    
-    border-top: 1px solid #FFF;
-    border-bottom: 1px solid #FFF;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
     background-color: #439280;
     color: #FFF;
 }
@@ -11,7 +11,7 @@
 .img-container{
     width: 150px;
     height: 150px;
-    margin: 22px auto;    
+    margin: 38px auto;    
 }
 
 .img-container img{
@@ -20,4 +20,95 @@
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #FFF;
+}
+
+.info-user{
+    box-sizing: content-box;
+    margin-bottom: 40px;
+}
+
+.actions-user{
+    box-sizing: content-box;
+}
+
+.user-li-sideBar{
+    margin: 0;
+    padding: 4px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #439280;
+}
+
+.ul-sideBar{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+.li-pro-sideBar{
+    margin: 0 18px;
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #439280;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FFF;
+}
+
+.li-sideBar{
+    margin: 0 18px;
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #FFF;
+    background-color: #439280;
+}
+
+.li-sideBar:hover{
+    background-color: #4ead97;
+}
+
+
+.final-sideBar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid #FFF;
+    padding: 0px 18px;
+}
+
+.li-final-sideBar{
+    width: 100%;
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #439280;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FFF;
+}
+
+.li-final-sideBar:hover{
+    background-color: #e5eeec;
 }
