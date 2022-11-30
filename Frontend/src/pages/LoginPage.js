@@ -9,6 +9,7 @@ import Form from "react-bootstrap/Form";
 
 function LoginPage() {
     return (
+        <div className='Layout'>
         <div className="container-signin">
             <div className="body-signin">
                 <div className="saludo">
@@ -26,6 +27,8 @@ function LoginPage() {
                         <a href="#" className="register">¿Olvidó su nombre de usuario o contraseña?</a>
                     </div>       
             </div>
+        </div>
+        <CopyRight></CopyRight>
         </div>
     )
 }

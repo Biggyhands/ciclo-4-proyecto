@@ -6,12 +6,16 @@ import SideBar from '../components/SideBar';
 
 function ReportPage(){
     return (
-        // <div className="ReportPage">
-            <Content>
-                <SideBar></SideBar>
-                <ReportBox></ReportBox>
-            </Content>            
-        // </div> *
+        <Content>
+                <SideBar/>  
+                <div className="Home-container">
+                    <legend className='Home-legend h4 pb-2 mb-4 border-bottom border-success'>REPORTAR TICKET</legend>
+                    {/* <div className="Home-body"></div> */}
+                    <div className="Home-separate">
+                        <ReportBox></ReportBox>
+                    </div>
+                </div>
+            </Content>
     )
 }
 

@@ -5,7 +5,7 @@
 }
 
 .container-HeadBar{
-    height: 80px;
+    min-height: 70px;
     display: flex;
     justify-content: space-between;
     color: #FFF;

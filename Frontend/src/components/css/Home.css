@@ -1,0 +1,32 @@
+.Home-container{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5; 
+}
+
+.Home-title{
+    
+}
+
+.Home-legend{
+    padding: 18px;
+    color: #439280;
+}
+
+.Home-separate{
+    flex: 1;
+    padding: 24px;
+}
+
+.Home-body{
+    flex: 1;
+    width: 350px;
+    background-color: #439280;
+    opacity: 0.93;
+    border: 2px solid #FFF;
+    border-radius: 24px;
+    padding: 17px;
+}

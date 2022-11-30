@@ -9,6 +9,7 @@ import Form from "react-bootstrap/Form";
 
 function RegisterPage() {
     return (
+        <div className='Layout'>
         <div className="container-signup">
             <div className="body-signup">
                 <div className="saludo">
@@ -27,6 +28,8 @@ function RegisterPage() {
                     <button className="btn-signup">Iniciar Sesión</button>
                 </form>      
             </div>
+        </div>
+        <CopyRight></CopyRight>
         </div>
     )
 }

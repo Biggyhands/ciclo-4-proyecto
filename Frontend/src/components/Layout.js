@@ -12,6 +12,8 @@ import LoginPage from '../pages/LoginPage';
 import RegisterPage from '../pages/RegisterPage';
 import ReportBox from './ReportBox';
 import ReportPage from '../pages/ReportPage';
+import Home from './Home';
+import TicketsPage from '../pages/TicketsPage';
 
 function Layout(){
     return (
@@ -20,13 +22,13 @@ function Layout(){
                 <HeadBar></HeadBar>
                 <Content>
                     <Routes>
-                        <Route path="/home" element={ <SideBar/> }/>
                         <Route path="/login" element={ <LoginPage/> } />
                         <Route path="/register" element={ <RegisterPage/> } />
+                        <Route path="/home" element={ <Home/> }/>
                         <Route path="/report" element={ <ReportPage/> } />
+                        <Route path="/tickets" element={ <TicketsPage/> } />
                     </Routes>
                 </Content>
-                <CopyRight></CopyRight>
             </div>
         </BrowserRouter>
     )

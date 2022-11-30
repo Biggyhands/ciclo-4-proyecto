@@ -1,10 +1,13 @@
 .sideBar{
     width: 300px;
+    height: 100vh;
     display: flex;
     flex-direction: column;    
     border-top: 2px solid #FFF;
     border-bottom: 2px solid #FFF;
     background-color: #439280;
+    position: sticky;
+    top: 0;
     color: #FFF;
 }
 
