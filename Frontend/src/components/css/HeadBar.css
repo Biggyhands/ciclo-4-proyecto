@@ -24,11 +24,13 @@
     margin: 0px 8px 0px 0px;
     display: inline;
     font-size: 32px;
+    color: #FFF;
 }
 
 .empresa-portal{
     display: inline;
     font-size: 18px;
+    color: #FFF;
 }
 
 .login{
